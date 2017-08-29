@@ -9,7 +9,7 @@ pipeline {
             
           },
           "Hello Date": {
-            sh 'echo Hello \'date\''
+            sh 'echo Hello "date"'
             
           }
         )
